@@ -50,14 +50,26 @@ python eval.py
 ```
 
 ## Project Structure
-src/
-├── query.py          # Gemini API gateway + retry
-├── emergency.py      # Embedding-based emergency detection
-├── analyzer.py       # Translation + intent + query rewriting
-├── retrieval.py      # Hybrid BM25 + semantic retrieval
-├── memory.py         # Conversation history management
-├── prompt.py         # Prompt construction + safety guard
-└── user_profile.py   # User onboarding + language selection
+```
+sakhii-bot/
+├── src/
+│ ├── query.py # Gemini API gateway + retry
+│ ├── emergency.py # Embedding-based emergency detection
+│ ├── analyzer.py # Translation + intent + query rewriting
+│ ├── retrieval.py # Hybrid BM25 + semantic retrieval
+│ ├── memory.py # Conversation history management
+│ ├── prompt.py # Prompt construction + safety guard
+│ └── user_profile.py # User onboarding + language selection
+│
+├── data/
+│ ├── eval.json # Evaluation queries
+│ └── medquad.csv # Source dataset
+│
+├── prepare_data.py # CSV → clean Q:A chunks
+├── test.py # Main bot pipeline
+├── eval.py # Evaluation script
+└── requirements.txt # Project dependencies
+```
 
 ## Tech Stack
 - Google Gemini 2.5 Flash
