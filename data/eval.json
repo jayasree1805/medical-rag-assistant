@@ -1,0 +1,34 @@
+[
+  {
+    "query": "what causes heartburn after eating",
+    "expected_keywords": ["acid", "reflux", "stomach", "antacid", "food"]
+  },
+  {
+    "query": "symptoms of diabetes",
+    "expected_keywords": ["blood sugar", "thirst", "urination", "fatigue", "glucose"]
+  },
+  {
+    "query": "how to treat a fever at home",
+    "expected_keywords": ["paracetamol", "rest", "fluids", "temperature", "doctor"]
+  },
+  {
+    "query": "what is hypertension",
+    "expected_keywords": ["blood pressure", "heart", "sodium", "lifestyle", "medication"]
+  },
+  {
+    "query": "remedies for headache",
+    "expected_keywords": ["pain", "rest", "hydration", "stress", "medication"]
+  },
+  {
+    "query": "causes of back pain",
+    "expected_keywords": ["muscle", "spine", "posture", "exercise", "doctor"]
+  },
+  {
+    "query": "what are symptoms of anemia",
+    "expected_keywords": ["iron", "fatigue", "pale", "hemoglobin", "diet"]
+  },
+  {
+    "query": "how to manage stress",
+    "expected_keywords": ["exercise", "sleep", "breathing", "meditation", "professional"]
+  }
+]
